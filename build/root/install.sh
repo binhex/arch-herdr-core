@@ -148,6 +148,7 @@ source utils.sh
 # Define environment variables to process
 # Format: "VAR_NAME:DEFAULT_VALUE:REQUIRED:MASK"
 env_vars=(
+	"SSH_PUBLIC_KEYS::true:false"
 	"ENABLE_STARTUP_SCRIPTS:no:false:false"
 	"STARTUP_SCRIPTS_MODE:wait:false:false"
 )
